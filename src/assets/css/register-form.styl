@@ -1,0 +1,56 @@
+.form-group
+  padding: 10px 0;
+  .form-item
+    position: relative;
+    line-height: 36px;
+    padding: 10px 0 10px 260px;
+    &::after
+      content: "";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      height: 0;
+    .form-label
+      float: left;
+      width: 240px;
+      height: 37px;
+      line-height: 37px;
+      margin-left: -260px;
+      text-align: right;
+    .form-label-b
+      font-weight: 700;
+    .input-text
+      width: 202px;
+      height: 17px;
+      line-height: 17px;
+      padding: 9px;
+      border: 1px solid #dedede;
+      font-size: 14px;
+      &:focus
+        border-color: #229bf9;
+    .input-err
+      border-color: #ff3f13;
+    .form-msg
+      position: absolute;
+      top: 20px;
+      right: -70px;
+      width: 300px;
+      line-height: 1.4;
+      font-size: 12px;
+      color: #3e3e3e;
+      &.err-msg
+        color: #ff3f13;
+      .icon
+        display: inline;
+        float: left;
+        font-size: 16px;
+        line-height: 18px;
+        &.icon-warn
+          color: #00bfff;
+        &.icon-err
+          color: #ff3f13;
+        &.icon-success
+          color: #6bc827;
+      .text
+        margin-left: 3px;
+        vertical-align: middle;
