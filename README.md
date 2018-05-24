@@ -1,6 +1,9 @@
 # bluebridge-clent
 
-> clent
+> 一个简单基于vue + vue-router + vuex的小项目
+> 主要是为学院蓝桥杯程序竞赛而开发
+> 本项目是学生端
+> 开发环境为 macOS 10.13.3 Chrome 66 nodejs 8.9.3
 
 ## Build Setup
 
